@@ -1,0 +1,176 @@
+html, body {
+    height: 100%;
+    background-color: #DEE5ED;
+}
+
+.container-fluid {
+    height: 100%;
+    background-color: #DEE5ED;
+
+}
+
+.root {
+    background-color: #DEE5ED;
+}
+
+nav {
+    padding: 5px 15px 2px 15px;
+    margin: 0 -15px 0 -15px ;
+    box-shadow: 0 0 15px 5px rgba(44, 82, 100, 0.75);
+}
+
+.navMenu {
+    padding: 30px;
+}
+
+.navbar-brand {
+    padding: 15px;
+}
+
+
+
+
+.AddPage {
+    background-color: #DEE5ED;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.postItem {
+    background-color: #DEE5ED;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.editPage {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.nav-link {
+    font-family: 'Walter Turncoat', cursive;
+
+}
+
+
+.nav-link {
+    margin-right:10%;
+    background-color:E6E6FA;
+    color: aliceblue;
+    border: none;
+    border-radius: 20%;
+    outline: none;
+}
+
+.nav-link:hover {
+    background-color: #D8BFD8;
+    transform: scale(1.5);
+}
+
+.navbar-brand span {
+ font-family: 'Rouge Script', cursive;
+font-size: 90%;
+color: black;
+padding: 3px;
+letter-spacing: 0.4em;
+ word-spacing: 1em;
+ border-top: 1px dotted #BAD1F0;
+ border-bottom: 1px dotted #BAD1F0;
+
+}
+
+
+
+
+
+.form-label {
+    padding-top: 20px;
+
+}
+
+
+img{
+    border: #D8BFD8 2px;
+}
+
+.postText {
+    color: #7A859B;
+
+}
+
+.postH {
+    padding: 20px;
+    color:#9C9BA1;
+    font-family: 'VT323', monospace;
+
+    
+}
+
+
+
+.postItem {
+    background-color:#DEE5ED;
+    padding-bottom: 10%;
+}
+
+.postItem img {
+    border: 1px solid #666;
+    background-color: #CCC;
+    padding: 10px;
+    width: 80%;
+
+}
+
+.postText  {
+    color: #3A4652;
+    font-family: 'Hina Mincho', serif;
+    padding: 20px;
+
+}
+
+blockquote .postText{
+    border: 1px dashed #D8BFD8;
+}
+
+.postText .postTag {
+    color: #9C9BA1;
+}
+
+
+
+form {
+    font-size: 1.2em;
+    color: black;
+    font-family:'Permanent Marker', cursive;
+}
+
+ button {
+padding: 10px 25px;
+font-family: 'Caveat', cursive;
+font-size: 1.5em;
+color: red;
+background: linear-gradient(#D8BFD8, #E0FFFF, #5F9EA0);
+border-radius: 5px;
+box-shadow: 0 0 10px black; 
+border: none;
+}
+
+
+.postItem img {
+    margin-left: 30px;
+}
+
+.PostBt {
+margin-left: 5%;
+}
